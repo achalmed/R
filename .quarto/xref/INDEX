@@ -16,5 +16,17 @@
   },
   "apendice.qmd": {
     "apendice.html": "f1c555c8"
+  },
+  "2-Que-Ofrece-RStudio/index.qmd": {
+    "index.html": "5783e721"
+  },
+  "1-Descargando-Instalando-R-RStudio/index.qmd": {
+    "index.html": "7ab42817"
+  },
+  "3-Debemos-Saber/index.qmd": {
+    "index.html": "a82c283b"
+  },
+  "4-Manipulación-Datos/index.qmd": {
+    "index.html": "33a6c6c5"
   }
 }

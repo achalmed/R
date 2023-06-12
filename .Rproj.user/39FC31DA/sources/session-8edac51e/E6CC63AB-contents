@@ -11,7 +11,7 @@ book:
       url: https://achalmaedison.netlify.app/
       affiliation: Universidad Nacional de San Cristóbal de Huamanga
       affiliation-url: https://www.gob.pe/unsch
-  date: "11/06/2023"
+  date: "06/11/2023"
   search: true
   repo-url: https://github.com/achalmed/Investigacion-operativa
   repo-branch: main
@@ -36,7 +36,10 @@ book:
     
     - part: Capitulo 1
       chapters:
-        - 1-Introduccion-R/index.qmd
+        - 1-Descargando-Instalando-R-RStudio/index.qmd
+        - 2-Que-Ofrece-RStudio/index.qmd
+        - 3-Debemos-Saber/index.qmd
+        - 4-Manipulación-Datos/index.qmd
         
     - references.qmd
     

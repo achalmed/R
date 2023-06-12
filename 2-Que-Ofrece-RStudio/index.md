@@ -47,7 +47,8 @@ Una vez que tenemos nuestro archivo de script abierto, podemos comenzar a escrib
 ![](images/Screenshot_20230611_004241.png)
 
 
-::: {.cell}
+
+::: {.cell hash='index_cache/pdf/unnamed-chunk-1_b03ad6258aa611a0379023283b393a96'}
 
 ```{.r .cell-code}
 # Este es un ejemplo de un script básico en R
@@ -74,6 +75,7 @@ cat("La multiplicación es:", multiplicacion, "\n")
 cat("La división es:", division, "\n")
 ```
 :::
+
 
 
 **Paso 3: Ejecutar el script**

@@ -1,0 +1,31 @@
+{
+    "id": "A3592861",
+    "path": "~/Descargas/R/1-Introduccion-R/index.qmd",
+    "project_path": "1-Introduccion-R/index.qmd",
+    "type": "quarto_markdown",
+    "hash": "2984397456",
+    "contents": "",
+    "dirty": false,
+    "created": 1686542331992.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "cursorPosition": "594,6",
+        "scrollLine": "583",
+        "rmdVisualModeLocation": "2:0",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1686542606,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1686542606739,
+    "read_only": false,
+    "read_only_alternatives": []
+}

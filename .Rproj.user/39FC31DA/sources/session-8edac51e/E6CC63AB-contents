@@ -1,0 +1,84 @@
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "R"
+  description: "Libro de R."
+  author:
+    - name: Elmer Edison Achalma Mendoza
+      url: https://achalmaedison.netlify.app/
+      affiliation: Universidad Nacional de San Cristóbal de Huamanga
+      affiliation-url: https://www.gob.pe/unsch
+  date: "11/06/2023"
+  search: true
+  repo-url: https://github.com/achalmed/Investigacion-operativa
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  cover-image: cover.png
+  cover-image-alt: |
+   Alternative text describing the book cover 
+   
+  page-footer:
+    left: |
+      R for Data Science (2e) was written by Hadley Wickham, Mine
+      Çetinkaya-Rundel, and Garrett Grolemund.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+      
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    
+    - part: Capitulo 1
+      chapters:
+        - 1-Introduccion-R/index.qmd
+        
+    - references.qmd
+    
+  appendices:
+    - apendice.qmd
+
+  page-navigation: true
+    
+comments:
+  hypothesis: true
+  
+bibliography: references.bib
+citation: true
+csl: apa-6th-edition.csl
+cite-method: biblatex
+
+links-as-notes: true
+lang: es 
+crossref:
+  fig-title: Figura    # (default is "Figure")
+  tbl-title: Tabla     # (default is "Table")
+  title-delim: —       # (default is ":")
+  fig-prefix: figura   # (default is "Figure")
+  tbl-prefix: tabla    # (default is "Table")
+  ref-hyperlink: false # (default is true)
+execute:
+  eval: true
+  echo: true
+  output: true 
+  warning: false
+
+highlight-style: github
+
+format:
+  #pdf:
+    #documentclass: scrreprt
+    #include-in-header: preamble.tex
+    #fontfamily: libertinus
+    #keep-tex: true
+  html:
+    theme: cosmo
+    code-copy: true
+    keep-md: true
+
+editor: visual

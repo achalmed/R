@@ -40,5 +40,17 @@
   },
   "4-manipulacion-datos/index.qmd": {
     "index.html": "8443b612"
+  },
+  "1-instalacion-r/index.qmd": {
+    "index.html": "e6f50d83"
+  },
+  "2-que-ofrece-r/index.qmd": {
+    "index.html": "f70c4896"
+  },
+  "3-debemos-saber-r/index.qmd": {
+    "index.html": "9806e970"
+  },
+  "4-manipulacion-datos-r/index.qmd": {
+    "index.html": "41ea4be5"
   }
 }

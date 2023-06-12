@@ -40,10 +40,10 @@ book:
     
     - part: Capitulo 1
       chapters:
-        - 1-Descargando-Instalando-R-RStudio/index.qmd
-        - 2-Que-Ofrece-RStudio/index.qmd
-        - 3-Debemos-Saber/index.qmd
-        - 4-Manipulación-Datos/index.qmd
+        - 1-instalacion/index.qmd
+        - 2-que-ofrece-rstudio/index.qmd
+        - 3-debemos-saber/index.qmd
+        - 4-manipulacion-datos/index.qmd
         
     - references.qmd
     

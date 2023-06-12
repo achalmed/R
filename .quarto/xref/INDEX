@@ -28,5 +28,17 @@
   },
   "4-Manipulación-Datos/index.qmd": {
     "index.html": "33a6c6c5"
+  },
+  "1-instalacion/index.qmd": {
+    "index.html": "cf0f76e4"
+  },
+  "2-que-ofrece-rstudio/index.qmd": {
+    "index.html": "337f920a"
+  },
+  "3-debemos-saber/index.qmd": {
+    "index.html": "4f9c451c"
+  },
+  "4-manipulacion-datos/index.qmd": {
+    "index.html": "8443b612"
   }
 }

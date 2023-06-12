@@ -247,7 +247,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, enhanced, frame hidden, sharp corners, breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Tabla de contenidos}
 {
@@ -325,7 +325,7 @@ estadística y de análisis de datos, y es especialmente popular entre los
 científicos de datos y los investigadores.
 \end{quote}
 
-\includegraphics{1-Descargando-Instalando-R-RStudio/images/Screenshot_20230610_222900.png}
+\includegraphics{1-instalacion/images/Screenshot_20230610_222900.png}
 
 \hypertarget{paso-2.-instalar-r-en-ubuntu-linux}{%
 \section{Paso 2. Instalar R en Ubuntu
@@ -415,7 +415,7 @@ para trabajar con R. Proporciona una interfaz gráfica intuitiva y muchas
 herramientas útiles para la programación en R.
 \end{quote}
 
-\includegraphics{1-Descargando-Instalando-R-RStudio/images/Screenshot_20230610_224818.png}
+\includegraphics{1-instalacion/images/Screenshot_20230610_224818.png}
 
 \hypertarget{paso-4.-instalar-rstudio-en-ubuntu-linux}{%
 \section{Paso 4. Instalar RStudio en Ubuntu
@@ -478,7 +478,7 @@ RStudio se abrirá en una ventana separada, lo que te permitirá comenzar
 a trabajar con R y aprovechar todas las funciones y características que
 ofrece el IDE.
 
-\includegraphics{1-Descargando-Instalando-R-RStudio/images/Screenshot_20230610_231407.png}
+\includegraphics{1-instalacion/images/Screenshot_20230610_231407.png}
 
 \hypertarget{quxfae-nos-ofrece-rstudio}{%
 \chapter{¿Qúe nos ofrece RStudio?}\label{quxfae-nos-ofrece-rstudio}}
@@ -528,7 +528,7 @@ que ofrece:
 
 \begin{figure}
 
-{\centering \includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230610_233058.png}
+{\centering \includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230610_233058.png}
 
 }
 
@@ -588,9 +588,9 @@ Para hacer esto, seleccionamos ``Archivo'' en la barra de menú, luego
 ``Nuevo archivo'' y finalmente ``Script R''. Esto abrirá un nuevo editor
 de texto donde podemos escribir nuestro código.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_001234.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_001234.png}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_001615.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_001615.png}
 
 \textbf{Paso 2: Escribir el código en el script}
 
@@ -600,7 +600,7 @@ función de R en el script para realizar análisis de datos, manipulación
 de variables, visualización, entre otros. Es importante asegurarse de
 que el código esté escrito correctamente y tenga una sintaxis válida.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_004241.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_004241.png}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -637,12 +637,12 @@ esto, podemos utilizar el atajo de teclado ``Ctrl + Enter'' o
 simplemente hacer clic en el botón ``Ejecutar'' en la parte superior del
 editor de texto.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_005354.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_005354.png}
 
 RStudio ejecutará el código línea por línea y mostrará los resultados en
 la consola.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_010256.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_010256.png}
 
 \textbf{Paso 4: Guardar el script}
 
@@ -650,14 +650,14 @@ Es importante guardar regularmente nuestro script para evitar perder
 nuestro trabajo. Para guardar el archivo de script, seleccionamos
 ``Archivo'' en la barra de menú y luego ``Guardar'' o ``Guardar como''.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_010854.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_010854.png}
 
 Podemos elegir una ubicación y un nombre de archivo apropiados para
 guardar nuestro script.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_012736.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_012736.png}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_013135.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_013135.png}
 
 \textbf{Paso 5: Continuar escribiendo y ejecutando el código}
 
@@ -765,7 +765,7 @@ datos}\label{creaciuxf3n-de-objetos-de-datos}}
   \texttt{mi\_objeto\ \textless{}-\ c(1,\ 2,\ 3,\ 4,\ 5)}.
 \end{enumerate}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_092644.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_092644.png}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -776,7 +776,7 @@ datos}\label{creaciuxf3n-de-objetos-de-datos}}
   ejecútalo en la consola de RStudio.
 \end{enumerate}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_093536.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_093536.png}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -787,7 +787,7 @@ datos}\label{creaciuxf3n-de-objetos-de-datos}}
   de trabajo. Sin embargo, no verás ningún resultado en la consola.
 \end{enumerate}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_094001.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_094001.png}
 
 Los objetos de datos creados se almacenan en el entorno global, que es
 parte del espacio de trabajo de R.
@@ -802,7 +802,7 @@ del objeto en un nuevo archivo. Ten en cuenta que esta vista previa no
 afecta los objetos en el espacio de trabajo y se puede cerrar sin perder
 ninguna información.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_094530.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_094530.png}
 
 \hypertarget{guardado-del-espacio-de-trabajo}{%
 \subsection{Guardado del espacio de
@@ -817,7 +817,7 @@ selecciona ``Save Workspace As\ldots{}''. A continuación, elige la
 ubicación y el nombre de archivo deseados para guardar el archivo
 \texttt{.Rdata}.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_095350.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_095350.png}
 
 Esta función es especialmente útil cuando trabajas en proyectos largos o
 cuando deseas retomar tu trabajo en otro momento sin tener que volver a
@@ -857,7 +857,7 @@ pasos:
   objetos y sus valores en tu entorno de trabajo actual.
 \end{enumerate}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_100949.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_100949.png}
 
 Una vez completados estos pasos, podrás acceder a todos los objetos y
 continuar trabajando con ellos como lo hiciste en la sesión en la que
@@ -885,7 +885,7 @@ derecha de la ventana de RStudio. Aquí encontrarás una lista de todos
 los comandos ejecutados, lo que te permite revisarlos y volver a
 utilizarlos según sea necesario.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_101644.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_101644.png}
 
 \hypertarget{guardado-del-historial-de-comandos}{%
 \subsection{Guardado del historial de
@@ -917,7 +917,7 @@ pasos:
   en el archivo seleccionado.
 \end{enumerate}
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_102856.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_102856.png}
 
 \hypertarget{reutilizaciuxf3n-del-historial-de-comandos}{%
 \subsection{Reutilización del historial de
@@ -928,12 +928,12 @@ reutilizar todo el historial de comandos haciendo clic en el archivo
 \texttt{.Rhistory} o con el nombre asignado. Luego, puedes copiarlos y
 pegarlos en tu archivo de script actual.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_103319.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_103319.png}
 
 Inserta un código de línea seleccionado de \texttt{.Rhistory} en un
 archivo de script nuevo.
 
-\includegraphics{2-Que-Ofrece-RStudio/images/Screenshot_20230611_103755.png}
+\includegraphics{2-que-ofrece-rstudio/images/Screenshot_20230611_103755.png}
 
 \begin{quote}
 ¡Explora y aprovecha al máximo el espacio de trabajo y el historial en
@@ -1151,7 +1151,7 @@ función \texttt{c()} para concatenar elementos y crear vectores en R.
 \end{Shaded}
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, breakable, bottomrule=.15mm, coltitle=black, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, arc=.35mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, leftrule=.75mm, left=2mm, titlerule=0mm, bottomtitle=1mm, breakable, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm, opacityback=0, colback=white]
 
 El cambio automático del tipo de datos del vector resultante se denomina
 coerción. La coerción garantiza que se mantiene el mismo tipo de datos
@@ -1203,7 +1203,7 @@ para cada elemento del vector.
 \end{Shaded}
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, breakable, bottomrule=.15mm, coltitle=black, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, arc=.35mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, leftrule=.75mm, left=2mm, titlerule=0mm, bottomtitle=1mm, breakable, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm, opacityback=0, colback=white]
 
 Las operaciones aritméticas de los vectores se realizan por elementos.
 si dos vectores no tienen la misma longitud, el vector más corto se

@@ -5,7 +5,8 @@ This is a Quarto book.
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 
-::: {.cell hash='index_cache/html/unnamed-chunk-1_d92c6cce5c93c036b8e3384080327711'}
+
+::: {.cell hash='index_cache/pdf/unnamed-chunk-1_1258e84b3ffd061be5ee35fec2a3d51a'}
 
 ```{.r .cell-code}
 1 + 1
